@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+
+  font: normal 100%/1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0 0 0.7rem;
+
+  text-align: center;
+}
+
+h2 {
+  margin: 0 0 1.5rem;
+  text-align: center;
+}
+
+header {
+  padding: 0.5em 0 0;
+
+  background-color: #d05c2e;
+
+  color: #fff;
+}
+
+.left {
+  float: left;
+  margin-top: 0.3rem;
+  width: 40px;
+}
+
+.right {
+  float: right;
+  margin-top: 0.3rem;
+  width: 40px;
+}
